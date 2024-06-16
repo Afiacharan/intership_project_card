@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:white;
+        }
+        .first {
+            /* display: flex; */
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            /* width: 200px;
+            height: 100px; */
+        }
+        .imge{
+            width: 300px;
+            padding-left: 80px;
+        }
+        .second {
+            display: flex;
+            align-items:center;
+            padding: 10px;
+        }
+        .second img {
+            margin-right: 50px; /* Space between image and text */
+        }
+        .text-first {
+            display: flex;
+            flex-direction: column;
+        }
+        .text-first span {
+            font-size: 90px; /* Adjusted font size */
+            font-weight: bold;
+        }
+        .text-first p {
+            margin: 0; /* Remove default margin */
+            font-size: 50px; /* Adjusted font size */
+        }
+        .imges {
+            border-radius: 50%;
+            height: 300px; /* Adjusted height */
+            width: 300px; /* Adjusted width */
+            margin-left: 100px;
+
+        }
+        .qr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Adjust the height as needed */
+        }
+        .qr img {
+            margin-top: -1000px; /* Adjust the margin as needed */
+        }
+        .qr {
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+             /* margin-top: 10px; Adjusted margin */
+            margin-left: 1500px; 
+            /* padding-bottom: 300px; */
+        }
+        .qr img {
+            width: 250px; /* Adjusted width */
+        }
+        .container {
+            width: 100%;
+            background-color:white;
+            display: flex;
+            justify-content: center;
+        }
+        .row {
+            /* background-color: rgb(185, 130, 57); */
+            padding: 10px; /* Adjusted padding */
+            width: 90%; /* Adjusted width */
+            max-width: 2000px; /* Optional max-width for larger screens */
+            /* display: flex; */
+            flex-direction: column;
+            align-items: center;
+            height: 800px; /* Adjusted height */
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="first">
+                <img class="imge" src="WhatsApp Image 2024-06-10 at 10.24.17 PM.jpeg" alt="Image 2">
+            </div>
+            <div class="second">
+                <img class="imges" src="img.jpg" alt="Image 1">
+                <div class="text-first">
+                    <span>Afia Charan</span>
+                    <p>[ Frontend-Developer ] fellow</p>
+                </div>
+            </div>
+            <div>
+                <h1 style="padding-left: 100px; font-size: 80px;"> <b>
+                    I am a <b style="color: red;">CodePro</b> Fellow.
+                </b></h1>
+            </div>
+            <div style="font-size: 35px; font-weight: bold; padding-left: 100px;">
+                <span>#Codeprofellowship</span>
+                <span style="padding-left: 50px;">#fellowship2024</span>
+            </div>
+            <div class="qr">
+                <img src="BA-QR-Code.png" alt="QR Code" style="margin-top:px;">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
